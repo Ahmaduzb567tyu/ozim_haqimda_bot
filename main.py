@@ -12,11 +12,14 @@ dp = Dispatcher()
 photo = "https://yt3.googleusercontent.com/oQAzzpWIXuBcjU2F4oK6ZB0XzevUlv4DLP6aE5QAsJ1EvDOWHv_4uxyvoAFdQjrGCn5wqGh9=s900-c-k-c0x00ffffff-no-rj"
 ahmadjon = "https://ik.imagekit.io/amj5ymhvt/Ahmadjon.jpg?updatedAt=1758704319420"
 oilam = "https://ik.imagekit.io/amj5ymhvt/photo_2_2025-02-15_16-11-21.jpg?updatedAt=1758707401773"
+
+
 @dp.message(Command("start"))
 async def send_message(message: types.Message):
     await message.answer(text="Salom bu men haqimdagi bot",
                          reply_markup=main_keyboard())
-# asd
+
+
 
 @dp.message(F.text == "About me")
 async def send_message(message: types.Message):
