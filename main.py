@@ -14,6 +14,8 @@ ahmadjon = "https://ik.imagekit.io/amj5ymhvt/Ahmadjon.jpg?updatedAt=175870431942
 oilam = "https://ik.imagekit.io/amj5ymhvt/photo_2_2025-02-15_16-11-21.jpg?updatedAt=1758707401773"
 
 
+
+
 @dp.message(Command("start"))
 async def send_message(message: types.Message):
     await message.answer(text="Salom bu men haqimdagi bot",
